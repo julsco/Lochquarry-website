@@ -1,0 +1,36 @@
+/*ABOUT*/
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.site-info{
+    height: auto;
+    width: 70%;
+    position: relative;
+    left: 15%;
+}
+
+.row-about {
+    height: auto;
+    width: 70%;
+    overflow: hidden;
+    position: relative;
+    left: 15%;
+    gap: 10px;
+  }
+
+.col-about {
+    height: auto;
+    float: left;
+    width: 33.33%;
+    gap: 10px;
+  }
+
+.col-about p{
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+span{
+  text-decoration: underline;
+}

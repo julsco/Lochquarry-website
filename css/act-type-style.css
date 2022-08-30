@@ -1,0 +1,75 @@
+/*INDEX*/
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/*---------------------------------- MAIN TEXT --------------------------------------------------*/
+
+.main-builder{
+  display: flex;
+  height: auto;
+  width: 70%;
+  position: relative;
+  left: 15%;
+}
+
+.builder{
+    display: flex;
+    height: auto;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+}
+
+.builder-2{
+  display: flex;
+  height: auto;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.description{
+  text-align: right;
+  height: 200px;
+}
+
+.picture{
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.builder h2{
+  color: #9DBEBB;
+  text-transform: uppercase;
+  font-size: 75px;
+  letter-spacing: 2px;
+  text-shadow: 4px 4px #031926;
+  position: relative;
+  overflow: hidden;
+  padding-top: 50px;
+  opacity: 80%;
+}
+
+.main-builder p{
+  font-weight: lighter;
+  font-size: 20px;
+  color: #dbd2e0;
+  font-family: 'Lora', serif;
+  text-align: center;
+  line-height: 1.6;
+  margin-top: 0;
+}
+
+span{
+  font-size: 40px;
+  color: #9DBEBB;
+  text-align: center;
+  line-height: 0;
+}
+
+.picture p{
+  font-size: 25px;
+}

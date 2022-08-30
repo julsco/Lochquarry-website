@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Secular One", sans-serif
+  }
+
+.container{
+    display:flex;
+    max-height: auto;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/mainglen.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+.flexbox{
+    width: 100%;
+    background-color: transparent;
+}
+/*------------------------------ TOPNAV ---------------------------------*/
+.topnav{
+    height: 200px;
+}
+
+.navigator {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+.logo {
+    cursor: pointer;
+  }
+  
+nav a {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #dbd2e0;
+    text-transform: uppercase;
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+nav a:hover {
+    transform: scale(1.1);
+    color: #468189;
+  }
+  
+.dropdown {
+    margin: 0 20px;
+    margin: -13px;
+    list-style: none;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+button-2{
+    display: inline-block;
+    text-decoration: none;
+    color: #dbd2e0;
+    text-transform: uppercase;
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+    list-style: none;
+  }
+  
+.dropdown-content {
+    margin: 0 20px;
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+    z-index: 1;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    text-align: center;
+  }
+
+/*----------------------------- MAIN ----------------------------------*/
+
+.main{
+    height: auto;
+    color: #dbd2e0;
+    text-align: center;
+}
+
+.main h1 {
+    text-transform: uppercase;
+    font-size: 80px;
+    letter-spacing: -2px;
+    text-shadow: 3px 3px #468189;
+  }
+  
+.main h2 {
+    font-size: 40px;
+    letter-spacing: -2px;
+    text-shadow: 3px 3px #468189;
+  }
+  
+.main h3 {
+    text-transform: uppercase;
+    font-size: 70px;
+    letter-spacing: -2px;
+    text-shadow: 3px 3px #468189;
+  }
+  
+.main p {
+    margin: 30px auto;
+    font-weight: 100;
+    line-height: 15px;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+
+/*----------------------- REVIEW ----------------------------------------*/
+
+.review {
+    height: 200px;
+    text-align: center;
+    color: #dbd2e0;
+}
+  
+.review p {
+    font-size: 20px;
+    display: inline-block;
+    padding: 5px 15px;
+    border-top: 4px solid #9DBEBB;
+    border-bottom: 4px solid #9DBEBB;
+    line-height: 2em;
+    text-decoration: none;
+}
+
+/*------------------------- FOOTER --------------------------------------*/
+
+.footer {
+    background-image: url("../img/banner-2.png");
+    background-size: cover;
+    background-position: center;
+    height: 160px;
+    overflow: hidden;
+    
+  }
+  
+  .column {
+    height: 150px;
+    float: left;
+    width: 25%;
+  }
+  
+  footer.after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .logo-2 {
+    transform: translate(30%, 30%);
+    position: relative;
+    height: 100px;
+    width: auto;
+  }
+  
+  .cont {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  .cont h4 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #031926;
+  }
+  
+  .cont p {
+    text-align: center;
+    color: #031926;;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social a {
+    color: #031926;;
+    text-align: center;
+    margin: 10px 10px;
+    font-size: 25px;
+    padding: 10px 10px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .social a:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .links a {
+    font-size: 18px;
+    padding: 5px 5px;
+    position: relative;
+    text-decoration: none;
+    overflow: hidden;
+    color: #031926;
+  }
+  .links a:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    display: block;
+    background: none repeat scroll 0 0 transparent;
+    height: 2px;
+    width: 0;
+    background: #253030;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  }
+  
+  .links a:hover:after {
+    width: 100%;
+    left: 0;
+  }

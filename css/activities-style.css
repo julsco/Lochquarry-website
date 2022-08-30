@@ -1,0 +1,59 @@
+/*ACTIVITIES*/
+
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+
+/*---------------------------------- ACTIVITIES --------------------------------------------------*/
+
+.row-act {
+  display: flex;
+  height: auto;
+  width: 70%;
+  position: relative;
+  left: 10%;
+  gap: 30px;
+}
+
+.col-3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 33.33%;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+  overflow: hidden;
+  text-transform: uppercase;
+  color: transparent;
+  letter-spacing: -2px;
+  font-size: 60px;
+  align-items: middle;
+  padding-left: 45px;
+
+}
+
+.notes-act {
+  height: 100px;
+  float: left;
+  width: 33.33%;
+  font-family: 'Lora', serif;
+  font-weight: lighter;
+  font-size: 25px;
+  text-align: center;
+  color: #dbd2e0;
+}
+
+.row-act:hover .col-3{
+  transform: scale(0.9);
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+}
+
+.row-act .col-3:hover{
+  transform: scale(1.1);
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+  box-shadow: none;
+  text-shadow: #031926 4px 5px 1px;
+  color: #93c6d6;
+}

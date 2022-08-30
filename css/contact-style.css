@@ -1,0 +1,90 @@
+/*CONTACT*/
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+/*---------------------------------- CONTENT --------------------------------------------------*/
+
+.builder-5 {
+    height: auto;
+    width: 70%;
+    overflow: hidden;
+    left: 15%;
+    position: relative;
+    display: flex;
+    gap: 15px; 
+  }
+
+.col-5 {
+    text-transform: uppercase;
+    text-align: center;
+    height: 800px;
+    float: left;
+    width: 50%;
+  }
+
+form{
+    font-size: 25px;
+  }
+
+input[type=text]{
+    color: #9DBEBB;
+    background-color: #031926;
+    border: 3px solid #9DBEBB;
+    font-size: 25px;
+    font-family: 'Lora', serif;
+    width: 95%;
+    padding-top: 10px;
+    padding: 5px;
+}
+
+textarea{
+  color: #9DBEBB;
+  background-color: #031926;
+  border: 3px solid #9DBEBB;
+  width: 95%;
+  font-size: 18px;
+  font-family: 'Lora', serif;  
+  padding: 10px;
+}
+
+input[type=reset]{
+  font-size: 30px;
+  cursor: pointer;
+  background-color: #031926;
+  border-radius: 25px;
+  width: 200px;
+  border: 3px solid #9DBEBB;
+  color: #9DBEBB;
+  transition-duration: 0.4s;
+}
+
+input[type=reset]:hover{
+  background-color: #9DBEBB;
+  color: #031926;
+  border: 3px solid #031926;
+}
+
+::placeholder {
+  color: #9DBEBB;
+}
+
+/*---------------------------*/
+
+input[type=submit]{
+  font-size: 30px;
+  cursor: pointer;
+  background-color: #031926;
+  border-radius: 25px;
+  width: 200px;
+  border: 3px solid #9DBEBB;
+  color: #9DBEBB;
+  transition-duration: 0.4s;
+}
+
+input[type=submit]:hover{
+  background-color: #9DBEBB;
+  color: #031926;
+  border: 3px solid #031926;
+}
